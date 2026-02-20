@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Trending Movies</h1>
+    <header>
+      <div class="logo">
+        <h1>TMDB Movies</h1>
+      </div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+        <form id="form">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search movies..."
+            autocomplete="off"
+          />
+        </form>
+      </div>
+    </header>
     <div class="movies" id="movies"></div>
 
     <script src="app.js"></script>
